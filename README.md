@@ -12,7 +12,13 @@ Not the complete algorithm for generating Farey sequences, but it kind of works 
 This soultion to the time independent Schrödinger equation in 1 dimension is ploted out for the first 5 lowest possible energies in `InfiniteWall.py`
 
 ## Legendre Polynomials
-The first 5 solutions to [Legendre's differential equation](https://en.wikipedia.org/wiki/Legendre_polynomials#Definition_via_differential_equation). The first plot renders the polynomial expansion of these solutions as a function of x, while the second plot renders them as functions of the trigonometric (sin(x), cos(x) & tan(x)) and hyperbolic (sinh(x), cosh(x) & tanh(x)) functions. The code is in `LegendrePoly.py`
+The first 5 solutions to [Legendre's differential equation](https://en.wikipedia.org/wiki/Legendre_polynomials#Definition_via_differential_equation).
+
+![Legendre's differntial equation](./images/LegDiffEqn.png)
+
+The first plot renders the polynomial expansion of these solutions as a function of x, while the second plot renders them as functions of the trigonometric (sin(x), cos(x) & tan(x)) and hyperbolic (sinh(x), cosh(x) & tanh(x)) functions. The code is in `LegendrePoly.py`
+
+![Legendre polynomials](./images/LegPoly.png)
 
 
 
