@@ -8,7 +8,7 @@ printing.init_printing(use_latex=True)
 xvals = np.linspace(-1, 1, 1000)
 
 # First 5 Legendre Polynomials as a function of x
-plt.title("Wavefunctions of a particle in an infinite square well")
+plt.title(r"First 5 Legendre Polynomials - These are solutions to $(1-x^2)\frac{d^2y}{dx^2} -2x\frac{dy}{dx} + n(n+1)y = 0$")
 plt.xlabel(sp.Symbol(r'$x$'))
 plt.ylabel(sp.Symbol(r'$y$'))
 plt.xlim(-1, 1)
