@@ -8,7 +8,7 @@ These model summation formulae for constants and the first n natural numbers (al
 ## Farey's Algorithm
 Not the complete algorithm for generating Farey sequences, but it kind of works - there are some extra terms in the sequence it spits out. The code can be found in `Farey.py`
 
-## Wave function of a particle in a bx with infinitely high walls
+## Wave function of a particle in a box with infinitely high walls
 This soultion to the time independent Schrödinger equation in 1 dimension is ploted out for the first 5 lowest possible energies in `InfiniteWall.py`
 
 ## Legendre Polynomials
@@ -20,8 +20,17 @@ The first plot renders the polynomial expansion of these solutions as a function
 
 ![Legendre polynomials](./images/LegPoly.png)
 
+## Brachistochrone Plots
+The Brachistochrone curve solves a problem posed by Jean Bernoulli in 1696. The problem translates to:
 
+"If two points A and B are given in a vertical plane, to assign a mobile particle Mthe path AMB along which, descending under
+its own weight, it passes from the point A to B in the **briefest possible time**."<sup>1</sup>
 
+The code in `brachistochrone.py` plots the brachistochrone curves from A(0,0) to several different B locations.
+
+![Brachistochrone plots](./images/Brach.png)
+
+<sup>1</sup> L.N.Hand & J.D. Finch, Analytical Mechanics
 
 
 ## Dependencies
