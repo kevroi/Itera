@@ -32,6 +32,16 @@ The code in `brachistochrone.py` plots the brachistochrone curves from A(0,0) to
 
 <sup>1</sup> L.N.Hand & J.D. Finch, Analytical Mechanics
 
+## Monte Carlo Integration
+This is a numerical method based on the relationship between the mean value of a function over an interval [a,b], and the integal of the function over the same interval. For a sufficiently large N,
+
+![Monte Carlo Integration Formula](./images/MonteCarloInt.png)
+
+Using this to numerically integrate sin(x) using 1000 x-values:
+
+![Monte Carlo in action](./images/MonteSS.png)
+
+The code for generating this figure can be found in `MonteCarloInt.py`
 
 ## Dependencies
 Requirements.txt will be uploaded soon.
