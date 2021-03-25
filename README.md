@@ -41,8 +41,21 @@ Using this to numerically integrate sin(x) using 1000 x-values:
 
 ![Monte Carlo in action](./images/MonteSS.png)
 
-The code for generating this figure can be found in `MonteCarloInt.py`
+The code for generating this figure can be found in `MonteCarloInt.py`.
+
+## Brownian Motion
+The random, jittery movement of dust particles suspended in a fluid, first noticed by Robert Brown and explained by Albert Einstein,
+can be attributed to random collisions with air molecules in all directions. Since most of the collisions tend to cancel eachother out,
+the net impulse on the dust particle can be modelled to be normally distributed about 0.
+
+The dust particle starts at the red dot and ends at the cyan dot.
+
+![Brownian Motion](./images/brownian.gif)
+
+The code used to generate this path can be found in `Brownian.py`.
 
 ## Dependencies
-Requirements.txt will be uploaded soon.
+All necessary dependencies have been included in `requirements.txt`. The file can be read to install the required dependencies into your machine or virtual environment using the following command on your command line interface (typically PowerShell or Command Prompts for Windows, Terminal for MacOS):
+
+`pip install -r requirements.txt`
 
