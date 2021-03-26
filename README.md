@@ -57,5 +57,6 @@ All necessary dependencies have been included in `requirements.txt`. The file ca
 
 ## References
 <sup>1</sup> L.N.Hand & J.D. Finch, Analytical Mechanics 1st ed. (1999)
+
 <sup>2</sup> R.T.Durrett, Probability Theory and Examples 5th ed. (2019)
 
