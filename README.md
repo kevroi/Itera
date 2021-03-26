@@ -1,6 +1,6 @@
-# Mathematical-Modeling
+# Welcome to Project Iterra
 
-This is a collection of python programs that model different mathematical phenomena. To quickly find the right file, just look up the file name below and put it in the repo's 'Go to file' button on top.
+This is a collection of programs that model different mathematical phenomena. To quickly find the right file, just look up the file name below and put it in the repo's 'Go to file' button on top.
 
 ## Summation Formulae
 These model summation formulae for constants and the first n natural numbers (along with their squares and cubes). The code can be found in `SumFormulae.py`
