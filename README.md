@@ -50,6 +50,11 @@ The dust particle starts at the red dot and ends at the cyan dot.
 
 The code used to generate this path can be found in `Brownian.py`.
 
+## The Collatz Conjecture
+Start with any positive integer, \(n\). If the number is even, half it. If the number is odd, triple it and add one. The Collatz conjecture conjecture says the sequence will reach 1 for all \(n\). Why this happens is still an open problem in mathematics.
+
+The Collatz conjecture has been modelled in assembly language (Little Man Computer) - for a bit of a challenge - in `Collatz.asm`.
+
 ## Dependencies
 All necessary dependencies have been included in `requirements.txt`. The file can be read to install the required dependencies into your machine or virtual environment using the following command on your command line interface (typically PowerShell or Command Prompts for Windows, Terminal for MacOS):
 
