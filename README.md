@@ -30,8 +30,6 @@ The code in `brachistochrone.py` plots the brachistochrone curves from A(0,0) to
 
 ![Brachistochrone plots](./images/Brach.png)
 
-<sup>1</sup> L.N.Hand & J.D. Finch, Analytical Mechanics
-
 ## Monte Carlo Integration
 This is a numerical method based on the relationship between the mean value of a function over an interval [a,b], and the integal of the function over the same interval. For a sufficiently large N,
 
@@ -43,8 +41,8 @@ Using this to numerically integrate sin(x) using 1000 x-values:
 
 The code for generating this figure can be found in `MonteCarloInt.py`.
 
-## Brownian Motion
-The random, jittery movement of dust particles suspended in a fluid, first noticed by Robert Brown and explained by Albert Einstein, can be attributed to random collisions with air molecules in all directions. Since most of the collisions tend to cancel eachother out, the net impulse on the dust particle can be modelled to be normally distributed about 0.
+## Brownian Motion using the Weiner Process
+The random, jittery movement of dust particles suspended in a fluid, first noticed by Robert Brown and explained by Albert Einstein, can be attributed to random collisions with air molecules in all directions. According to the Weiner Process, since most of the collisions tend to cancel eachother out, the net impulse on the dust particle can be modelled to be normally distributed about 0.<sup>2</sup>
 
 The dust particle starts at the red dot and ends at the cyan dot.
 
@@ -56,4 +54,8 @@ The code used to generate this path can be found in `Brownian.py`.
 All necessary dependencies have been included in `requirements.txt`. The file can be read to install the required dependencies into your machine or virtual environment using the following command on your command line interface (typically PowerShell or Command Prompts for Windows, Terminal for MacOS):
 
 `pip install -r requirements.txt`
+
+## References
+<sup>1</sup> L.N.Hand & J.D. Finch, Analytical Mechanics 1st ed. (1999)
+<sup>2</sup> R.T.Durrett, Probability Theory and Examples 5th ed. (2019)
 
