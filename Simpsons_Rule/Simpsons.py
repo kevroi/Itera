@@ -41,6 +41,9 @@ if __name__ == "__main__":
     print("Enter an even number of strips: ")
     try:
         n = int(input())
+        if (n%2 != 0) or (n < 2):
+            print("Simpson's Rule only works with a positive even number of strips")
+            raise ValueError()
     except ValueError:
         print("Please enter an EVEN NUMBER of strips: ")
         n = int(input())
