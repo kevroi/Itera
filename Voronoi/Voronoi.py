@@ -83,7 +83,7 @@ def voronify(r, N, metric):
 
 if __name__ == "__main__":
 
-    print("Enter numbner of pixels for an edge of the square plane")
+    print("Enter number of pixels for an edge of the square plane")
     r = int(input())
 
     print("Enter number of shards you want (i.e. Voronoi Cells)")

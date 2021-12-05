@@ -12,5 +12,18 @@ Colour all the space close to the red dot red. Now do the same for yellow, green
 
 Now go outside and play.
 
+# Results
+Voronoi diagrams for 5, 10 and 50 cells (top to bottom) with centres uniformly distributed across the 800x800 plane. Euclidean distance was used as the metric.
+![Euclidean Distance Voronoi Diagram 5 cells](./results/E5.png)
+![Euclidean Distance Voronoi Diagram 10 cells](./results/E10.png)
+![Euclidean Distance Voronoi Diagram 50 cells](./results/E50.png)
+
+If we have a gaussian distribution of centres:
+![Euclidean Distance Gausian Voronoi Diagram 50 cells](./results/E50G.png)
+
+If we use Manhattan distance as the metric, with 25 cells:
+![Manhattan Distance Voronoi Diagram 50 cells](./results/M25.png)
+
 # Future Work
-Maybe a heuristic method to determine nearest P<sub>k</sub> to a given pixel?
+* Rectangular plots to generate wallpapers
+* Maybe a heuristic method to determine nearest P<sub>k</sub> to a given pixel?
