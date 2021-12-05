@@ -16,6 +16,7 @@ Now go outside and play.
 Voronoi diagrams for 5, 10 and 50 cells (top to bottom) with centres uniformly distributed across the 800x800 plane. Euclidean distance was used as the metric.
 
 <img src="./results/E5.png" alt="Euclidean Distance Voronoi Diagram 5 cells" width="200" height="200">
+<img src="./results/E10.png" alt="Euclidean Distance Voronoi Diagram 10 cells" width="200" height="200">
 ![Euclidean Distance Voronoi Diagram 5 cells](./results/E5.png | width=100)
 ![Euclidean Distance Voronoi Diagram 10 cells](./results/E10.png)
 ![Euclidean Distance Voronoi Diagram 50 cells](./results/E50.png)
