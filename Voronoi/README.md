@@ -1,19 +1,3 @@
-<style>
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-
 # What are Voronoi cells?
 They're pretty.
 ## Formal Definition
@@ -50,10 +34,11 @@ Voronoi diagrams for 5, 10 and 50 cells (top to bottom) with centres uniformly d
 ![Euclidean Distance Voronoi Diagram 50 cells](./results/E50.png) -->
 
 If we have a gaussian distribution of centres:
+<img src="./results/E50G.png" alt="Euclidean Distance Gausian Voronoi Diagram 50 cells" width="200" height="200">
 ![Euclidean Distance Gausian Voronoi Diagram 50 cells](./results/E50G.png)
 
 If we use Manhattan distance as the metric, with 25 cells:
-![Manhattan Distance Voronoi Diagram 50 cells](./results/M25.png)
+<img src="./results/M25.png" alt="Manhattan Distance Voronoi Diagram 50 cells" width="200" height="200">
 
 # Future Work
 * Rectangular plots to generate wallpapers
