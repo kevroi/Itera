@@ -1,3 +1,19 @@
+<style>
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
 # What are Voronoi cells?
 They're pretty.
 ## Formal Definition
@@ -15,11 +31,23 @@ Now go outside and play.
 # Results
 Voronoi diagrams for 5, 10 and 50 cells (top to bottom) with centres uniformly distributed across the 800x800 plane. Euclidean distance was used as the metric.
 
-<img src="./results/E5.png" alt="Euclidean Distance Voronoi Diagram 5 cells" width="200" height="200">
-<img src="./results/E10.png" alt="Euclidean Distance Voronoi Diagram 10 cells" width="200" height="200">
+<div class="row">
+  <div class="column">
+    <img src="./results/E5.png" alt="Euclidean Distance Voronoi Diagram 5 cells" width="200" height="200">
+  </div>
+  <div class="column">
+    <img src="./results/E10.png" alt="Euclidean Distance Voronoi Diagram 10 cells" width="200" height="200">
+  </div>
+  <div class="column">
+    <img src="./results/E50.png" alt="Euclidean Distance Voronoi Diagram 50 cells" width="200" height="200">
+  </div>
+</div>
+
+
+<!-- <img src="./results/E10.png" alt="Euclidean Distance Voronoi Diagram 10 cells" width="200" height="200">
 ![Euclidean Distance Voronoi Diagram 5 cells](./results/E5.png | width=100)
 ![Euclidean Distance Voronoi Diagram 10 cells](./results/E10.png)
-![Euclidean Distance Voronoi Diagram 50 cells](./results/E50.png)
+![Euclidean Distance Voronoi Diagram 50 cells](./results/E50.png) -->
 
 If we have a gaussian distribution of centres:
 ![Euclidean Distance Gausian Voronoi Diagram 50 cells](./results/E50G.png)
