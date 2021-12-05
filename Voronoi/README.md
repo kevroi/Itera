@@ -34,12 +34,14 @@ Voronoi diagrams for 5, 10 and 50 cells (top to bottom) with centres uniformly d
 ![Euclidean Distance Voronoi Diagram 50 cells](./results/E50.png) -->
 
 If we have a gaussian distribution of centres:
+
 <img src="./results/E50G.png" alt="Euclidean Distance Gausian Voronoi Diagram 50 cells" width="200" height="200">
-![Euclidean Distance Gausian Voronoi Diagram 50 cells](./results/E50G.png)
 
 If we use Manhattan distance as the metric, with 25 cells:
+
 <img src="./results/M25.png" alt="Manhattan Distance Voronoi Diagram 50 cells" width="200" height="200">
 
 # Future Work
 * Rectangular plots to generate wallpapers
 * Maybe a heuristic method to determine nearest P<sub>k</sub> to a given pixel?
+* More colour pallettes to choose from than just random colours
