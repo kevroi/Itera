@@ -3,7 +3,7 @@
 This is a collection of programs that model different mathematical phenomena. To quickly find the right file, just look up the file name below and put it in the repo's 'Go to file' button on top.
 
 ## p-Norms in different Lebesgue space
-![Unit Circles](./images/UnitCirclesLp.png)
+![Unit Circles](./images/UnitCircles.png)
 See `pNorms` directory [here](pNorms) for more details.
 
 
