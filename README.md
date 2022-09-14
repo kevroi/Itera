@@ -36,6 +36,11 @@ The first plot renders the polynomial expansion of these solutions as a function
 ![Legendre polynomials](./images/LegPoly.png)
 
 
+## Random Walk with partially reflecting boundaries
+Our agent, 🤑, is on a street. It lives in a world where time is discrete. Each second it has a probability p of moving right, and 1-p of moving left. If it reaches an end of a street, it will stay there until it is fortunate enough to take a step away from the boundary.<sup>3</sup>
+
+![Random Walk Terminal Output](./images/RandomWalk_terminal.jpg)
+
 ## The Collatz Conjecture
 Start with any positive integer, \(n\). If the number is even, half it. If the number is odd, triple it and add one. The Collatz conjecture conjecture says the sequence will reach 1 for all \(n\). Why this happens is still an open problem in mathematics.
 
@@ -53,7 +58,9 @@ All necessary dependencies have been included in `requirements.txt`. The file ca
 `pip install -r requirements.txt`
 
 ## References
-<sup>1</sup> L.N.Hand & J.D. Finch, Analytical Mechanics 1st ed. (1999)
+<sup>1</sup> L.N. Hand & J.D. Finch, Analytical Mechanics 1st ed. (1999)
 
-<sup>2</sup> R.T.Durrett, Probability Theory and Examples 5th ed. (2019)
+<sup>2</sup> R.T. Durrett, Probability Theory and Examples 5th ed. (2019)
+
+<sup>3</sup> G.F. Lawler, Introduction to Stochastic Processes 2nd ed. (2006)
 
