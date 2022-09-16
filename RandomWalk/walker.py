@@ -1,5 +1,3 @@
-from os import times
-from time import time
 import numpy as np
 
 class Walker():
@@ -7,7 +5,7 @@ class Walker():
     Class for performingh 1D random walks. Currently implemented for unbiased random
     walks with partially reflecting boundaries
     """
-    def __init__(self, street_length, timesteps, start_at, p,
+    def __init__(self, timesteps=10, start_at=0, p=0.5, street_length=10,
                 street_char='_', walker_char=':)'):
         """
         Args:
@@ -48,6 +46,7 @@ class Walker():
         Random walk with Partially reflecting boundaries.
         """
         self.makeStreet()
+        self.printStreet()
 
         for t in range(1, self.timesteps+1):
             rand_num = np.random.random()

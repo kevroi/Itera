@@ -2,6 +2,9 @@
 
 This is a collection of programs that model different mathematical phenomena. To quickly find the right file, just look up the file name below and put it in the repo's 'Go to file' button on top.
 
+## News! 📰
+Following the advice of industry experts, I will now be including unit tests and integration tests when and where applicable for all future code added to this repo. The first of this will be my simulator for random walks found in the `.\RandomWalk` folder :)
+
 ## p-Norms in different Lebesgue space
 ![Unit Circles](./images/UnitCircles.png)
 See `pNorms` directory [here](pNorms) for more details.
