@@ -13,7 +13,7 @@ The Brachistochrone curve solves a problem posed by Jean Bernoulli in 1696. The 
 "If two points A and B are given in a vertical plane, to assign a mobile particle Mthe path AMB along which, descending under
 its own weight, it passes from the point A to B in the **briefest possible time**."<sup>1</sup>
 
-The code in `brachistochrone.py` plots the brachistochrone curves from A(0,0) to several different B locations.
+The code in `ClassicalMech\brachistochrone.py` plots the brachistochrone curves from A(0,0) to several different B locations.
 
 ![Brachistochrone plots](./images/Brach.png)
 
@@ -44,7 +44,7 @@ Our agent, 🤑, is on a street. It lives in a world where time is discrete. Eac
 ## The Collatz Conjecture
 Start with any positive integer, \(n\). If the number is even, half it. If the number is odd, triple it and add one. The Collatz conjecture conjecture says the sequence will reach 1 for all \(n\). Why this happens is still an open problem in mathematics.
 
-The Collatz conjecture has been modelled in assembly language (Little Man Computer) - for a bit of a challenge - in `Collatz.asm`.
+The Collatz conjecture has been modelled in assembly language (Little Man Computer) - for a bit of a challenge - in `Collatz\Collatz.asm`.
 
 ## Summation Formulae
 These model summation formulae for constants and the first n natural numbers (along with their squares and cubes). The code can be found in `SumFormulae.py`
