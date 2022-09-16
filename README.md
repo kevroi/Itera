@@ -3,7 +3,8 @@
 This is a collection of programs that model different mathematical phenomena. To quickly find the right file, just look up the file name below and put it in the repo's 'Go to file' button on top.
 
 ## News! 📰
-Following the advice of industry experts, I will now be including unit tests and integration tests when and where applicable for all future code added to this repo. The first of this will be my simulator for random walks found in the `.\RandomWalk` folder :)
+* Following the advice of industry experts, I will now be including unit tests and integration tests when and where applicable for all future code added to this repo. The first of this will be my simulator for random walks found in the `.\RandomWalk` folder :)
+* Just found out that as of 19 May 2022, GitHub now supports the rendering of $\LaTeX$ in markdown files! Prepare yourself for a whole new breed of Iterra documentation.
 
 ## p-Norms in different Lebesgue space
 ![Unit Circles](./images/UnitCircles.png)
@@ -32,7 +33,10 @@ The code used to generate this path can be found in `Brownian.py`.
 ## Legendre Polynomials
 The first 5 solutions to [Legendre's differential equation](https://en.wikipedia.org/wiki/Legendre_polynomials#Definition_via_differential_equation).
 
-![Legendre's differntial equation](./images/LegDiffEqn.png)
+\[
+    (1-x^2) \frac{\mathrm{d}^2 y}{\mathrm{d}x^2} - 2x\frac{\mathrm{d} y}{\mathrm{d}x} + n(n+1)y = 0 \\ \\
+    n =0, 1,2, 3, ... 
+\]
 
 The first plot renders the polynomial expansion of these solutions as a function of x, while the second plot renders them as functions of the trigonometric (sin(x), cos(x) & tan(x)) and hyperbolic (sinh(x), cosh(x) & tanh(x)) functions. The code is in `LegendrePoly.py`
 
