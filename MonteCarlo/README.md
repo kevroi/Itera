@@ -7,8 +7,6 @@ $$
 \int_a^b f(x) \textrm{d}x = \lim_{n \to \infty} \frac{b-a}{n} \sum_{i=1}^n f(x_i)
 $$
 
-![Monte Carlo Integration Formula](./plots/MonteCarloInt.png)
-
 Using this to numerically integrate sin(x) using 1000 x-values:
 
 ![Monte Carlo in action](./plots/MonteSS.png)
