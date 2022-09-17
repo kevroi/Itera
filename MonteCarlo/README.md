@@ -14,9 +14,12 @@ Using this to numerically integrate sin(x) using 1000 x-values:
 The code for generating this figure can be found in `mc_1d/MonteCarloInt.py`.
 
 ## Volume of an n-dimensional Sphere (multi-dimensional)
-The script `mc_n_sphere/nSphere.py` computes the volume of a sphere of radius r, living in n+1 dimensions (mathematically known as an n-sphere, S<sub>n</sub>).
+The script `mc_n_sphere/nSphere.py` computes the volume of a sphere of radius $r$, living in $n+1$ dimensions (mathematically known as an n-sphere, $S_n$).
 
-S<sub>n</sub> = { x ϵ ℝ<sup>n+1</sup> : ||x|| = r }
+$$
+S_n = \{ x \in \mathbb{R}^{n+1}: \| x \| = r\}
+$$
+
 
 Error analysis across different dimensions:
 <img src="./plots/nSphereErr.png" alt="Integration Error as a function of points used">
