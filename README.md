@@ -41,7 +41,7 @@ $$
     n =0, 1,2, 3, ... 
 $$
 
-The first plot renders the polynomial expansion of these solutions as a function of x, while the second plot renders them as functions of the trigonometric ($\sin x$, $\cos x$ & $\tan x$)) and hyperbolic ($\sinh x$, $\cosh x$ & $\tanh x$) functions. The code is in `LegendrePoly.py`
+The first plot renders the polynomial expansion of these solutions as a function of x, while the second plot renders them as functions of the trigonometric ( $\sin x$, $\cos x$ & $\tan x$ )) and hyperbolic ( $\sinh x$, $\cosh x$ & $\tanh x$ ) functions. The code is in `LegendrePoly.py`
 
 ![Legendre polynomials](./images/LegPoly.png)
 
