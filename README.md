@@ -17,7 +17,7 @@ The Brachistochrone curve solves a problem posed by Jean Bernoulli in 1696. The 
 "If two points A and B are given in a vertical plane, to assign a mobile particle Mthe path AMB along which, descending under
 its own weight, it passes from the point A to B in the **briefest possible time**."<sup>1</sup>
 
-The code in `ClassicalMech\brachistochrone.py` plots the brachistochrone curves from A(0,0) to several different B locations.
+The code in `ClassicalMech\brachistochrone.py` plots the brachistochrone curves from $A(0,0)$ to several different B locations.
 
 ![Brachistochrone plots](./images/Brach.png)
 
@@ -34,7 +34,9 @@ The code used to generate this path can be found in `Brownian.py`.
 The first 5 solutions to [Legendre's differential equation](https://en.wikipedia.org/wiki/Legendre_polynomials#Definition_via_differential_equation).
 
 $$
-    (1-x^2) \frac{\mathrm{d}^2 y}{\mathrm{d}x^2} - 2x\frac{\mathrm{d} y}{\mathrm{d}x} + n(n+1)y = 0 \\ \\
+    (1-x^2) \frac{\mathrm{d}^2 y}{\mathrm{d}x^2} - 2x\frac{\mathrm{d} y}{\mathrm{d}x} + n(n+1)y = 0
+$$
+$$
     n =0, 1,2, 3, ... 
 $$
 
