@@ -36,6 +36,7 @@ The first 5 solutions to [Legendre's differential equation](https://en.wikipedia
 $$
     (1-x^2) \frac{\mathrm{d}^2 y}{\mathrm{d}x^2} - 2x\frac{\mathrm{d} y}{\mathrm{d}x} + n(n+1)y = 0
 $$
+
 $$
     n =0, 1,2, 3, ... 
 $$
