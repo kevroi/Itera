@@ -17,4 +17,5 @@ Plane:
 ![Rotating Plane Demo gif](./images/plane.gif)
 
 Cube:
+
 ![Rotating Cube Demo gif](./images/cube.gif)
