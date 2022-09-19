@@ -12,6 +12,9 @@ Groups are collections of objects along with some kind of operator ( $+, -, \tim
 # Groups of Matrices
 TBC
 
-# Demos
+# Demo
+Plane:
 ![Rotating Plane Demo gif](./images/plane.gif)
+
+Cube:
 ![Rotating Cube Demo gif](./images/cube.gif)
