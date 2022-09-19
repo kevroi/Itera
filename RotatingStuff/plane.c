@@ -17,9 +17,9 @@ float reciprocal_z;
 int x_pixel, y_pixel;
 int idx;
 
-float cubeWidth = 20;
+float cubeWidth = 10;
 int width = 160, height = 44;
-int cameraDistance = 100;
+int cameraDistance = 60;
 float zBuffer[160*44];
 char buffer[160*44];
 int bgASCIIcode = ' ';
@@ -68,17 +68,7 @@ int main() {
 
         for (float cubeX = -cubeWidth; cubeX < cubeWidth; cubeX += incrementSpeed) {
             for (float cubeY = -cubeWidth; cubeY < cubeWidth; cubeY += incrementSpeed) {
-                calculateForSurface(cubeX, cubeY, -cubeWidth, '.');
-                // Rotating 90 deg anti-cw about y maps (x, y, z) -> (-z, y, x)
-                calculateForSurface(cubeWidth, cubeY, cubeX, '$');
-                // Rotating 90 deg cx about y maps (x, y, z) -> (z, y, -x)
-                calculateForSurface(-cubeWidth, cubeY, -cubeX, '#');
-                // Rotating 180 deg about y maps (x, y, z) -> (-x, y, -z)
-                calculateForSurface(-cubeX, cubeY, cubeWidth, '?');
-                // Rotating 90 deg anti-cw about x maps (x, y, z) -> (x, z, -y)
-                calculateForSurface(cubeX, -cubeWidth, -cubeY, '|');
-                // Rotating 90 deg cw about x maps (x, y, z) -> (x, -z, y)
-                calculateForSurface(cubeX, cubeWidth, cubeY, ';');
+                calculateForSurface(cubeX, cubeY, -cubeWidth, '#');
             }
         }
         printf("\x1b[H");
