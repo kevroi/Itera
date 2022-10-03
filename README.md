@@ -6,6 +6,10 @@ This is a collection of programs that model different mathematical phenomena. To
 * [16/09/22] Following the advice of industry experts, I will now be including unit tests and integration tests when and where applicable for all future code added to this repo. The first of this will be my simulator for random walks found in the `.\RandomWalk` folder :)
 * [16/09/22] Just found out that as of 19 May 2022, GitHub now [supports](https://github.blog/2022-05-19-math-support-in-markdown/) the rendering of $\LaTeX$ in markdown files! Prepare yourself for a whole new breed of Iterra documentation.
 
+## Estimating the shape of a bubble film for a wire loop
+Still in development. Here are our messy, inaccurate but pretty preliminary results:
+![Bubble Film](./images/Film.png)
+
 ## p-Norms in different Lebesgue space
 ![Unit Circles](./images/UnitCircles.png)
 See `pNorms` directory [here](pNorms) for more details.
